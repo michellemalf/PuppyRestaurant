@@ -1,0 +1,96 @@
+.bodymau{
+    background: url(/puppyrest/assets/bgtexture.jpg);
+    /* background-position: 100%;
+    height: 100vh; */
+    margin-left: 120px;
+    margin-right: 120px;
+    background-size: cover;    
+    height: 100vh;
+}
+
+.navbar-nav {
+    
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    text-align: center;
+list-style: none;
+
+flex-direction: row-reverse;
+    
+    text-decoration: none;
+    color: #5F002B;
+    justify-content: right;
+    
+}
+
+.nav-link{
+    margin: .5rem;
+}
+
+H1Mau{
+    color: #5F002B;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+H2Mau{
+    color: #5F002B;
+    width: 950px;
+    height: 366px;
+    justify-content: right;
+
+}
+
+/* .container{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+} */
+
+.container2{
+    background-color: white;
+
+    
+}
+
+
+img {
+
+    object-fit: cover;
+}
+
+/* footerm{
+    
+} */
+
+@font-face {
+    font-family: 'fugazone';
+    src: url('/fonts/fugazone-regular-webfont.woff2') format('woff2'),
+         url('/fonts/fugazone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+@font-face {
+    font-family: 'montaukregular';
+    src: url('montauk-regular-webfont.woff2') format('woff2'),
+         url('montauk-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.footerm{
+    font-family: 'fugazone';
+    font-style: italic;
+    color: #5F002B;
+}
+.footerz{
+    font-family: 'montaukregular';
+    color: #5F002B;
+}

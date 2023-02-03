@@ -1,0 +1,120 @@
+body {
+    background: url(/puppyrest/assets/bgtexture.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    text-align: center;
+    list-style: none;
+  
+    flex-direction: row-reverse;
+  
+    text-decoration: none;
+    color: #5f002b;
+    justify-content: right;
+  }
+  
+  .nav-link {
+    margin: 0.5rem;
+    font-family: "fugazone";
+    list-style: none;
+  }
+  .navliz{
+    /* list-style: none; */
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    text-align: center;
+    list-style: none;
+  }
+  
+  .blah {
+    text-decoration: none;
+  }
+  
+  .blurgh {
+    text-decoration: none;
+  }
+  
+  @font-face {
+    font-family: "montaukbold";
+    src: url("montauk-bold-webfont.woff2") format("woff2"),
+      url("montauk-bold-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "montaukitalic";
+    src: url("montauk-italic-webfont.woff2") format("woff2"),
+      url("montauk-italic-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "montauklight";
+    src: url("montauk-light-webfont.woff2") format("woff2"),
+      url("montauk-light-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "montaukregular";
+    src: url("montauk-regular-webfont.woff2") format("woff2"),
+      url("montauk-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "fugazone";
+    src: url("/fonts/fugazone-regular-webfont.woff2") format("woff2"),
+      url("/fonts/fugazone-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #5f002b;
+  }
+  h1 {
+    background-color: white;
+    align-content: center;
+    /* center/margins this */
+    font-family: "fugazone";
+    text-align: center;
+  }
+  
+  h1,
+  h2 {
+    font-family: Montaukbold, Helvetica, sans-serif;
+  }
+  
+  p {
+    color: #5f002b;
+  }
+  
+  .container2{
+    background-color: white;
+  
+    
+  }
+
+  
+  

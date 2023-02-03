@@ -1,0 +1,125 @@
+body {
+    background-image: url(/puppyrest/assets/bgtexture.jpg);
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 0;
+    background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+}
+
+.navColor {
+    color: #5F002B;
+    margin: 5px;
+    font-family: 'fugazone';
+    font-size: 20px;
+    text-decoration: none;
+}
+li.nav-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+.navbr {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.homeSingle {
+    justify-content: start;
+    object-fit: contain;
+   
+}
+.homeMult {
+    font-family: 'fugazone';
+    font-size: 20px;
+    color: #5F002B;
+}
+.mainContainer {
+    margin-top: 5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    justify-content:center;
+
+}
+.homeMult h1 {
+    background-color: white;
+    margin: 0;
+}
+
+.csImage {
+    width: 100%;
+    object-position: cover;
+
+}
+.homeMult, h1 {
+    font-size: 20px;
+    font-family: 'fugazone';
+    padding: 5px;
+}
+
+.homeMult, p{
+    font-size: 10px;
+    padding-bottom: 5px;
+    font-family: 'montaukregular';
+    padding: 7px;
+}
+.whiteBG {
+    background-color:white;
+    color: #5F002B;
+}
+.heroImage {
+    height: 100%;
+    width: 100%;
+    padding:10px;
+}
+.homeImage {
+    padding: 10px;
+    
+}
+.footer{
+    margin-top: 70px;
+    padding:10px;
+    opacity: 100%;
+    font-family: "montaukregular"; 
+}
+
+
+@font-face {
+    font-family: 'montaukbold';
+    src: url('/puppyrest/fonts/montauk-bold-webfont.woff2') format('woff2'),
+         url('/puppyrest/fonts/montauk-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'montaukitalic';
+    src: url('/puppyrest/fonts/montauk-italic-webfont.woff2') format('woff2'),
+         url('/puppyrest/fonts/montauk-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'montauklight';
+    src: url('/puppyrest/fonts/montauk-light-webfont.woff2') format('woff2'),
+         url('/puppyrest/fonts/montauk-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'montaukregular';
+    src: url('/puppyrest/fonts/montauk-regular-webfont.woff') format('woff2'),
+         url('/puppyrest/fonts/montauk-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'fugazone';
+    src: url('/puppyrest/fonts/fugazone-regular-webfont.woff2') format('woff2'),
+         url('/puppyrest/fonts/fugazone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
